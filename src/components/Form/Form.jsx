@@ -48,7 +48,7 @@ export default function Form() {
       return
     }
 
-    if (id.name > 200) {
+    if (name.length > 200) {
       toast({
         title: `O nome somente pode ter ${maxName} caracteres`,
         status: 'info',
